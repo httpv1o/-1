@@ -1,1 +1,196 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevStudio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
+        header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        header nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        header .contact {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .hero {
+            background-color: #2d2d2d;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .hero button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+            background-color: #f8f9fa;
+        }
+
+        .features div {
+            text-align: center;
+            max-width: 200px;
+        }
+
+        .work {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .work h2 {
+            margin-bottom: 20px;
+        }
+
+        .work img {
+            max-width: 30%;
+            margin: 0 10px;
+        }
+
+        .team {
+            background-color: #f8f9fa;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .team h2 {
+            margin-bottom: 20px;
+        }
+
+        .team .members {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .team .member {
+            text-align: center;
+            max-width: 150px;
+        }
+
+        .team .member img {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        footer {
+            background-color: #2d2d2d;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">DevStudio</div>
+        <nav>
+            <a href="#">Про нас</a>
+            <a href="#">Послуги</a>
+            <a href="#">Контакти</a>
+        </nav>
+        <div class="contact">info@devstudio.com | +380 800 123 456</div>
+    </header>
+
+    <div class="hero">
+        <h1>Ми створюємо легкі рішення складних завдань для вашого бізнесу</h1>
+        <button>Замовити консультацію</button>
+    </div>
+
+    <div class="features">
+        <div>
+            <h3>Робота для бізнесу</h3>
+            <p>Професійний підхід для кожного клієнта.</p>
+        </div>
+        <div>
+            <h3>Пунктуальність</h3>
+            <p>Завжди дотримуємося строків виконання робіт.</p>
+        </div>
+        <div>
+            <h3>Інновації</h3>
+            <p>Сучасні рішення для будь-яких завдань.</p>
+        </div>
+    </div>
+
+    <div class="work">
+        <h2>Роботи, на яких спеціалізуємося</h2>
+        <img src="https://via.placeholder.com/300" alt="Coding">
+        <img src="https://via.placeholder.com/300" alt="Teamwork">
+        <img src="https://via.placeholder.com/300" alt="Planning">
+    </div>
+
+    <div class="team">
+        <h2>Наша команда</h2>
+        <div class="members">
+            <div class="member">
+                <img src="https://via.placeholder.com/150" alt="Member 1">
+                <p>Betty Fox</p>
+                <p>Product Designer</p>
+            </div>
+            <div class="member">
+                <img src="https://via.placeholder.com/150" alt="Member 2">
+                <p>Fredie Brooks</p>
+                <p>Frontend Developer</p>
+            </div>
+            <div class="member">
+                <img src="https://via.placeholder.com/150" alt="Member 3">
+                <p>Mia Doe</p>
+                <p>Marketing</p>
+            </div>
+            <div class="member">
+                <img src="https://via.placeholder.com/150" alt="Member 4">
+                <p>Lisa Spritzer</p>
+                <p>UI Designer</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>DevStudio | Льва Толстого 12, Київ, Україна</p>
+        <p>+380 800 123 456 | info@devstudio.com</p>
+    </footer>
+</body>
+</html>
